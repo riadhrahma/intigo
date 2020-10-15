@@ -1,0 +1,9 @@
+
+
+
+<resources>
+    <string name="facebook_app_id">3749537781725555</string>
+    <string name="fb_login_protocol_scheme">fb3749537781725555</string>
+    <string name="hello">Hello!</string>
+    <string name="app_name">Intigo</string>
+</resources>
