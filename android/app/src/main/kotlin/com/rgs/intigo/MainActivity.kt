@@ -20,6 +20,7 @@ class MainActivity: FlutterActivity() {
             val info = packageManager.getPackageInfo(
                     "com.rgs.intigo",
                     PackageManager.GET_SIGNATURES)
+
             for (signature in info.signatures) {
                 val md = MessageDigest.getInstance("SHA")
                 md.update(signature.toByteArray())
